@@ -1,11 +1,11 @@
 
-const checkbox = document.getElementById('burgerCheckbox');
-const burger_menu = document.querySelector('.navigation-menu');
-
-checkbox.addEventListener('change', function () {
-    if (checkbox.checked) {
-        burger_menu.classList.add('checked');
-    } else {
-        burger_menu.classList.remove('checked');
-    }
+$(document).ready(function () {
+    // Navigation Menu
+    $('#burgerCheckbox').change(function () {
+        if ($(this).prop('checked')) {
+            $('.navigation-menu').addClass('checked');
+        } else {
+            $('.navigation-menu').removeClass('checked');
+        }
+    });
 });
