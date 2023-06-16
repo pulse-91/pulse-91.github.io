@@ -1,0 +1,17 @@
+body {
+  line-height: initial;
+}
+
+h1 {
+  line-height: initial;
+}
+
+.navbar {
+  position: initial;
+  display: initial;
+  flex-wrap: initial;
+  align-items: initial;
+  justify-content: initial;
+  padding: initial;
+}
+

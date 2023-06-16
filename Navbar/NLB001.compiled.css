@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
+.logo h1 {
+  margin-left: 5px;
+}
+
+.reserv-button {
+  margin-right: 5px;
+}
+.reserv-button a {
+  margin-right: 10px;
+}
+.reserv-button a:nth-last-child(1) {
+  margin-right: 0;
+}
+.reserv-button button {
+  padding: 5px 40px;
+  color: white;
+  border: solid 2px white;
+  background-color: transparent;
+}
+.reserv-button button:hover {
+  color: black;
+  background-color: white;
+}
